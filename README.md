@@ -1,16 +1,23 @@
-# qr_scanner
+# QR_scanner
 
-A new Flutter project.
+A new Flutter project of QR code scanner.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+ QR code (Quick Response code) is a type of matrix barcode (or two-dimensional barcode) invented in 1994 by the Japanese company Denso Wave.
 
-A few resources to get you started if this is your first Flutter project:
+           How QR Codes Work?
+ 
+ 1. Scanning - A QR code scanner uses a camera to capture the image of the QR code
+ 2. Decoding - It identifies the three large squares to determine the orientation and then uses the smaller alignment and timing patterns to understand the layout and size of the code.
+ 3. Error correction - include error correction capabilities. This means that even if a part of the QR code is damaged or dirty, the scanner can still accurately decode the information.
+ 4. Data Extraction - The encoded data is then extracted and converted into a human-readable format, such as a URL, text, or other information.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+           Uses of QR Codes-
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. URL Links
+2. Contact Information
+3. Product Information
+4. Payments
+5. Event Tickets
+6. Wi-Fi Access
